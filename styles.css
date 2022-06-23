@@ -1,0 +1,33 @@
+body {
+    margin:0;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-size: contain;
+    background-image: radial-gradient(circle at center,rgb(3, 3, 3),40%,rgb(0,27,134),54%,rgb(210,174,126),61%,rgb(240,137,16),65%,rgb(196,69,0),70%,rgb(36,9,0),black,75%,black);
+    filter: contrast(-50px);
+}
+
+
+#quote-box {     
+    color:whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+    width:30vw;
+    height:auto;
+    background-color:transparent;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+#new-quote {
+    background-color: transparent;
+    color:whitesmoke;
+    cursor:pointer;
+}
+
+i {
+    font-size: 1.5rem;
+}
